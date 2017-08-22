@@ -1,0 +1,4 @@
+code_review_universal_translator_homepage_default:
+    path:     /
+    defaults: { _controller: CodeReviewUniversalTranslatorBundle:Default:index }
+

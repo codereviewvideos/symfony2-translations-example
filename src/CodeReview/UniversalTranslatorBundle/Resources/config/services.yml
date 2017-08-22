@@ -1,0 +1,7 @@
+parameters:
+#    code_review_universal_translator.example.class: CodeReview\UniversalTranslatorBundle\Example
+
+services:
+#    code_review_universal_translator.example:
+#        class: %code_review_universal_translator.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

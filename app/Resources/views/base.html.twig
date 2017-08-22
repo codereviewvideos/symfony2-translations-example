@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Universal Translator</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+
+        {% if code is defined %}
+            <div class="block" style="margin: 50px 0;">
+                <div class="symfony-content">{{ code|raw }}</div>
+            </div>
+        {% endif %}
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

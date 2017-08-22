@@ -1,0 +1,3 @@
+code_review_universal_translator:
+    resource: "@CodeReviewUniversalTranslatorBundle/Resources/config/routing.yml"
+    prefix:   /
